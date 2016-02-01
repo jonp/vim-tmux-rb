@@ -6,5 +6,5 @@ Install with janus
 
 in .vimrc add something like 
 ```
-nnoremap <Leader>a :call vim-tmux-rb#test_current()<cr>
+nnoremap <Leader>a :call vim_tmux_rb#test_current()<cr>
 ```
