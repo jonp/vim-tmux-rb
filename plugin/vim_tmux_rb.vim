@@ -1,5 +1,5 @@
 function! vim_tmux_rb#pipe_command(cmd)
-  let escaped = escape(cmd, '\"')
+  let escaped = escape(a:cmd, '\"')
   execute  "silent ! tmux send-keys -t 1 \"" . escaped . "\" C-m"
   execute "redraw!"
 endfunction
